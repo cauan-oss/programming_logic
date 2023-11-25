@@ -4,7 +4,14 @@ const printing_objects = [{nome: "cauan", heigth: 1.80}]
 
 const platform_input = [3, 6, "k", "m", 1, 6]
 
-for(index = 0; index <3; index += 1){
-    console.log(printing_objects[index])
+for(index = 0; index < 5; index += 1){
     console.log(platform_input[index])
+}
+
+const get_input = () => {
+    
+}
+
+const print_output = () => {
+
 }
