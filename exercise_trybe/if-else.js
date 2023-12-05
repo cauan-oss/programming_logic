@@ -1,10 +1,12 @@
 const beenPrice = 10;
 const totalMoney = 9;
-const message = '';
+let message = '';
 const surplus = totalMoney - beenPrice;
 if(totalMoney < beenPrice){
-    console.log(`nao vou comprar pois me falta ${surplus} reais`)
+    message = `nao vou comprar pois me falta ${surplus} reais`
 } else {
 
-    console.log(`eu compro, e ainda me sobra ${surplus} reais`)
+    message = `eu compro, e ainda me sobra ${surplus} reais`
 }
+
+console.log(message)
