@@ -1,11 +1,14 @@
-// exercise one; get you primary two elements of input and take them ou in reverse ordem. Repeat untill the input is empty.
+// const get_box_platform_input = (platform) => {
+ //    let box_one = [];
+ //   for(index = 1; index < platform.length; index += 1){
+ //       box_one = platform[index]
+ //   }
+ //   return box_one
+// }
 
-const printing_objects = [{nome: "cauan", heigth: 1.80}]
-
-let platform_input = [3, 6, "k", "m", 1, 6]
-const alt = ["A", "U", "T", "O", "E", "X", "E", "C"]
-
-for(index = 0; index < alt.length; index += 1){
-    console.log(alt[index])
-    
+// console.log(get_box_platform_input(box))
+const box = ["tres", "quatro", "dois"]
+for(index = 0; index <= 2; index += 1){
+    console.table(box[index])
 }
+
